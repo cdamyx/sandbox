@@ -1,0 +1,21 @@
+.dropdown-content {
+	display: none;
+	background-color: pink;
+}
+/*.dropdown-content p {
+	display: block;
+}
+.dropdown-content p:hover {
+	position: absolute;
+	display: block;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+*/
+.showDropdown {
+	display: block;
+}
+.clickBackground {
+	background-color: #0020FC;
+}
