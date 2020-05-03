@@ -19,3 +19,4 @@
 .clickBackground {
 	background-color: #0020FC;
 }
+#draggable {height:150px; width:150px; background-color:#CCCCCC; position:fixed;}

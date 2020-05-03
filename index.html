@@ -7,8 +7,10 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Sandbox</title>
 	<link rel="stylesheet" href="style.css">
-	<!--jQuery script CDN URL-->
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<!--if loading jquery ui, need to load jquery first, and needs to happen in <head> instead of </body>-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 	
 </head>
 
@@ -31,11 +33,19 @@
 		<div id="paraCont">
 			<p id="paragraphErase">lorem ipsum dolor and all those other words</p>
 		</div>
+
+
+		<div id="draggable" class="ui-widget-content">
+			<h3>drag me</h3>
+		</div>
 	</main>
 
 	<footer>
 
 	</footer>
+
+	<script src="jq_functions.js"></script>
 	<script src="scripts.js"></script>
+
 </body>
 </html>
