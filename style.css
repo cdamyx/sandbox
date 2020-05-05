@@ -23,7 +23,4 @@
 #col1 {height:50vh; background-color:#666666;}
 #col2 {height:50vh; background-color:#7C3B4A;}
 #col3 {height:50vh; background-color:#339F76;}
-h1{font-weight:900;}
-#header4 {
-	font-weight:900;
-}
+.headStyles {font-weight:700;}
