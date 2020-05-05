@@ -8,6 +8,9 @@
 	<title>Sandbox</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<!--more recent version of BS which includes things like font-weight-bold class
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/css/bootstrap.min.css">
+	-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<!--if loading jquery ui, need to load jquery first, and needs to happen in <head> instead of </body>-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -24,7 +27,7 @@
 
 	<main>
 		<div>
-			<h1 style="font-size:50px">TEST</h1>
+			<h1 style="font-size:50px">TEST outside fixed container</h1>
 		</div>
 		<div class="container">
 			<div class="dropdown">
@@ -36,7 +39,7 @@
 
 
 			<div id="paraCont">
-				<p id="paragraphErase">lorem ipsum dolor and all those other words</p>
+				<p id="paragraphErase" class="font-weight-bold">lorem ipsum dolor and all those other words</p>
 			</div>
 
 
@@ -64,16 +67,43 @@
 			</div>
 
 			<div class="row">
-				<div id="col1" class="col-lg-4 col-sm-6">
+				<div id="col1" class="col-lg-4 col-sm-3">
 					<h3>words1</h3>
 				</div>
-				<div id="col2" class="col-lg-4 col-sm-5">
+				<div id="col2" class="col-lg-4 col-sm-6">
 					<h3>words2</h3>
 				</div>
-				<div id="col3" class="col-lg-4 col-sm-1">
+				<div id="col3" class="col-lg-4 col-sm-3">
 					<h3>words3</h3>
 				</div>
 			</div>
+			<!--bootstrap secondary text and highlight applied-->
+			<h4>heading<small>secondary <mark>highlight</mark> text</small></h4>
+
+			<!--underline with tooltip-->
+			<p>Underline with tooltip - Lorem ipsum dolor sit amet consectetur <abbr title="how to underline with tooltip.">adipisicing</abbr> elit. Et magni, voluptatibus consectetur ex unde sequi.</p>
+
+			<blockquote>
+				<p><strong> This is a blockquote </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos architecto nobis deserunt quisquam nesciunt nemo et sunt unde accusantium debitis.</p>
+				<footer>this is the footer of the blockquote</footer>
+			</blockquote>
+
+			<!--code tags-->
+			<h4 id="header4">code tags</h4>
+			<p class="font-weight-bold">paste this code into your project: <code>function myFunction() {alert("hello world");};</code></p>
+
+			<!--keyboard inputs-->
+			<h4>keyboard inputs</h4>
+			<p>to copy press <kbd>ctrl + c</kbd> and then press <kbd>ctrl + v</kbd> to paste</p>
+
+			<!--pre element, displays white text and line breaks where html would usually block in the viewport-->
+			<h4>pre element - show white spaces and line breaks</h4>
+			<pre>
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+				Ipsam sint modi blanditiis reprehenderit          eos sequi natus hic in ab illo dolorum dolore 
+				nemo obcaecati        officia possimus omnis autem earum,          odio excepturi nostrum? Aliquid 
+				voluptatum sint vero quam, dignissimos laboriosam facere illum, aut rerum culpa 
+				eius dolorum iure! Esse, tempore et.</pre>
 
 		</div>
 	</main>
