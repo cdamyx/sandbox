@@ -23,3 +23,7 @@
 #col1 {height:50vh; background-color:#666666;}
 #col2 {height:50vh; background-color:#7C3B4A;}
 #col3 {height:50vh; background-color:#339F76;}
+.headStyles {font-weight:700;}
+#mainBackground {background-color:#666666; padding:1rem}
+#leftCol {background-color:#7C3B4A}
+#rightCol {background-color:#339F76}
